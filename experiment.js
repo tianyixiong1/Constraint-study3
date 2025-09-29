@@ -670,7 +670,7 @@ const ratingTrials = selectedScenarios.map(scenario => {
     type: jsPsychSurveyHtmlForm,
     preamble: `
       <div style="text-align:left;margin-bottom:15px;">
-        <p><strong>Please read the following scenario and answer the following question:</strong></p>
+        <p><strong>Please read the scenario below and answer the question that follows</strong></p>
         <p>${scenarioText}</p>
         <p>${agentName} decides to ${chosenAction}.</p>
       </div>
