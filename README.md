@@ -1,5 +1,2 @@
-# Study 5 - Gender project
-
-This project houses the experimental files for study 5 of: On the perils of being good manuscript
-
-This code was created by Jordan Wylie with debugging help from Thomas Mazzuchi
+# Study 3 - force judgment
+This is Study 3, where participants are asked to make force judgments for three actions in each of six scenarios.
