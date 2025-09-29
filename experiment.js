@@ -128,7 +128,24 @@ const consentForm = {
     }
   }
 };
+
+// Instruction updated at Sep 26
+const instruction = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+    <div style="max-width:800px; margin:auto; text-align:left;">
+      <h2 style="text-align:center">Welcome to our study!</h2>
+      <p>In this experiment, we are interested in how you think about the kinds of things someone might do.</p>
+      <p>You’ll read scenarios that describe a situation and an action taken by a person. Then, you’ll rate how much the person had to do the action — in other words, how forced it felt.</p>
+    </div>
+  `,
+  choices: ['Continue']
+};
+
+
 timeline.push(consentForm);
+timeline.push(instruction);
+
 const politicalResponses = [
   "1 (Extremely liberal)",
   "2",
@@ -653,7 +670,7 @@ const ratingTrials = selectedScenarios.map(scenario => {
     type: jsPsychSurveyHtmlForm,
     preamble: `
       <div style="text-align:left;margin-bottom:15px;">
-        <p><strong>Please read the following scenario:</strong></p>
+        <p><strong>Please read the following scenario and answer the following question:</strong></p>
         <p>${scenarioText}</p>
         <p>${agentName} decides to ${chosenAction}.</p>
       </div>
