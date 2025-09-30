@@ -672,7 +672,7 @@ const ratingTrials = selectedScenarios.map(scenario => {
       </div>
       <div style="text-align:left;margin-bottom:10px;">
         <p><strong>Please tell how much you agree with the following statement:</strong></p>
-        <p>"<strong>${agentName}</strong> had to ${chosenAction}."</p>
+        <p>"${agentName} had to ${chosenAction}."</p>
       </div>
     `,
     html: `
