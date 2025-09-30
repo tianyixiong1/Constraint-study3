@@ -136,7 +136,7 @@ const instruction = {
     <div style="max-width:800px; margin:auto; text-align:left;">
       <h2 style="text-align:center">Welcome to our study!</h2>
       <p>In this experiment, we are interested in how you think about the kinds of things someone might do.</p>
-      <p>You’ll read scenarios that describe a situation and an action taken by a person. Then, you’ll rate how much the person had to do the action — in other words, how forced it felt.</p>
+      <p>You will read scenarios that describe a situation and an action taken by a person. Then, you will rate how much the person had to do the action — in other words, how forced it felt.</p>
     </div>
   `,
   choices: ['Continue']
@@ -646,7 +646,7 @@ const scenarioStimuli = [
 ];
 
 // Experiment trails
-// Study 4 -- ask participants to do the force judgment
+// Study 3 -- ask participants to make force judgment
 const shuffledScenarios = jsPsych.randomization.shuffle(scenarioStimuli);
 const selectedScenarios = shuffledScenarios.slice(0,12);
 
